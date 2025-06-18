@@ -1,0 +1,23 @@
+body {
+    background-color: var(--fondo, white);
+    text-align: center;
+    font-weight: bold;
+    font-family: Arial, sans-serif;
+    margin: 40px;
+}
+
+form {
+    display: inline-block;
+    text-align: left;
+    font-weight: normal;
+}
+
+input[type="submit"] {
+    font-weight: bold;
+    padding: 8px 16px;
+    cursor: pointer;
+}
+
+p {
+    font-weight: bold;
+}

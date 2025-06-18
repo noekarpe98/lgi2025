@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8" />
+    <title>Calculadora de descuentos</title>
+    <link rel="stylesheet" href="ejemplo_funciones_edad.css">
+</head>
+<body>
+    <h1>Calculadora de descuentos</h1>
+
+    <form method="post" action="ejemplo_funciones_edad.php">
+        <label for="nombre">Nombre:</label><br>
+        <input type="text" id="nombre" name="nombre" required><br><br>
+
+        <label for="anio">Año de nacimiento:</label><br>
+        <input type="number" id="anio" name="anio" min="1900" max="2025" required><br><br>
+
+        <label for="mes">Mes de nacimiento:</label><br>
+        <input type="number" id="mes" name="mes" min="1" max="12" required><br><br>
+
+        <label for="dia">Día de nacimiento:</label><br>
+        <input type="number" id="dia" name="dia" min="1" max="31" required><br><br>
+
+        <input type="submit" value="Calcular">
+    </form>
+</body>
+</html>
+
